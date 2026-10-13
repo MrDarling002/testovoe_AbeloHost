@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+vendor/
+storage/cache/compiled/*
+storage/logs/*
+tests/
+scss/
+phpunit.xml
+phpstan.neon
+README.md
+Makefile
+.dockerignore
+Dockerfile
+compose.yaml

@@ -1,0 +1,7 @@
+/vendor/
+/.env
+/storage/cache/compiled/*
+/storage/logs/*.log
+!/storage/cache/.gitkeep
+!/storage/cache/compiled/.gitkeep
+!/storage/logs/.gitkeep

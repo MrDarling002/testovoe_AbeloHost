@@ -1,7 +1,7 @@
 FROM php:8.2-apache
 
 RUN apt-get update \
- && apt-get install -y --no-install-recommends libonig-dev \
+ && apt-get install -y --no-install-recommends libonig-dev unzip \
  && docker-php-ext-install pdo_mysql mbstring opcache \
  && apt-get purge -y libonig-dev \
  && apt-get clean \

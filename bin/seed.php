@@ -10,7 +10,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->safeLoad();
 
 $config = require dirname(__DIR__) . '/config/app.php';
-$force  = in_array('--force', $argv, true);
+$force  = in_array('--force', $_SERVER['argv'] ?? [], true);
 
 try {
     $pdo = Connection::create($config['db']);

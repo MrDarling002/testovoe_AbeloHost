@@ -1,6 +1,8 @@
 {
     "name": "blog/app",
+    "description": "Blog on pure PHP + Smarty + MySQL without frameworks",
     "type": "project",
+    "license": "proprietary",
     "require": {
         "php": ">=8.1",
         "ext-mbstring": "*",

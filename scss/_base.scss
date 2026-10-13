@@ -1,0 +1,19 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: $font-size-base; }
+body {
+  font-family: $font-main;
+  line-height: $line-height;
+  color: $color-text;
+  background: $color-bg;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a { color: $color-primary; text-decoration: none; &:hover { text-decoration: underline; } }
+img { max-width: 100%; height: auto; display: block; }
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}

@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .post-grid { grid-template-columns: 1fr; }
+  .category-section__header { flex-direction: column; gap: .5rem; }
+  .post-full__title { font-size: 1.5rem; }
+  .sort-bar { flex-wrap: wrap; }
+}

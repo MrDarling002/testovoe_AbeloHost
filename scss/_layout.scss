@@ -1,0 +1,25 @@
+.site-header {
+  background: $color-surface;
+  border-bottom: 1px solid $color-border;
+  padding: .75rem 0;
+  .container { display: flex; align-items: center; justify-content: space-between; }
+  &__logo { font-size: 1.4rem; font-weight: 700; color: $color-text; &:hover { text-decoration: none; } }
+  &__nav a { margin-left: 1rem; font-weight: 500; }
+}
+.site-main { flex: 1; padding: 2rem 0; }
+.site-footer {
+  background: $color-surface;
+  border-top: 1px solid $color-border;
+  padding: 1rem 0;
+  text-align: center;
+  color: $color-text-light;
+  font-size: .9rem;
+}
+.page-title { font-size: 1.8rem; margin-bottom: 1rem; }
+.category-desc { color: $color-text-light; margin-bottom: 1.5rem; }
+.breadcrumbs {
+  font-size: .9rem;
+  color: $color-text-light;
+  margin-bottom: 1rem;
+  a { color: $color-primary; }
+}
